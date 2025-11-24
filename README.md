@@ -75,6 +75,5 @@ The notebook included demonstrates the full workflow using real transactional da
 
 * The dataset may contain millions of rows. Running the notebook may require sufficient RAM.
 * All visualizations and analyses are explained step-by-step inside the notebook.
-* 
 ---
 
