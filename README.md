@@ -1,6 +1,6 @@
 # Fraud Detection Project — Technical Documentation Version
 
-A machine learning project built to analyze financial transactions and detect potential fraud. This repository contains the dataset (if applicable), preprocessing steps, exploratory data analysis (EDA), feature engineering, model training, and evaluation.
+A machine learning project built to analyze financial transactions and detect potential fraud. This repository contains the dataset, preprocessing steps, exploratory data analysis (EDA), feature engineering, model training, and evaluation.
 
 ---
 
@@ -22,7 +22,6 @@ The notebook included demonstrates the full workflow using real transactional da
 
 ```
 ├── Fraud Detection.ipynb     # Full analysis & model building notebook
-├── AIML Dataset.csv          # Transaction dataset (if uploaded)
 └── README.md                 # Project documentation
 ```
 
@@ -54,14 +53,14 @@ The notebook included demonstrates the full workflow using real transactional da
 ### 3. **Feature Engineering**
 
 * Balance difference calculations
-* Transformations (e.g., log scaling)
+* Transformations 
 * Encoding categorical features
 
 ### 4. **Model Development**
 
 * Train/test split
-* Model training (e.g., Logistic Regression, Random Forest, etc.)
-* Performance evaluation: accuracy, precision, recall, F1-score
+* Model training 
+* Performance evaluation: accuracy, precision, recall
 
 ### 5. **Results & Insights**
 
@@ -71,40 +70,11 @@ The notebook included demonstrates the full workflow using real transactional da
 
 ---
 
-## 🚀 How to Run
-
-1. Clone this repository:
-
-```bash
-git clone https://github.com/yourusername/fraud-detection.git
-```
-
-2. Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-3. Open the notebook:
-
-```bash
-jupyter notebook "Fraud Detection.ipynb"
-```
-
----
 
 ## 📝 Notes
 
 * The dataset may contain millions of rows. Running the notebook may require sufficient RAM.
 * All visualizations and analyses are explained step-by-step inside the notebook.
-
+* 
 ---
 
-## 📧 Contact
-
-For questions or collaboration, reach out:
-**Your Name** – [your.email@example.com](mailto:your.email@example.com)
-
----
-
-If you want, I can generate a shorter, more aesthetic, or more professional README version.
